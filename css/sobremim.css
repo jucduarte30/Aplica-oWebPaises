@@ -1,0 +1,65 @@
+#app {
+
+    background: linear-gradient(to bottom right, #6ecd72, #4FC3F7);
+
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+.item i {
+    margin-right: 10px;
+
+}
+
+h1 {
+    color: rgb(251, 251, 251);
+    text-shadow: 3px 3px 5px black, -3px -3px 5px black;
+}
+
+.item:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+hr {
+    margin: 15px 0;
+    border: 1px solid #fff;
+}
+
+#info {
+    color: rgb(251, 251, 251);
+    text-shadow: 3px 3px 5px black, -3px -3px 5px black;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: large;
+}
+
+#info1 {
+    color: rgb(251, 251, 251);
+    text-shadow: 3px 3px 5px black, -3px -3px 5px black;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    font-size: large;
+
+}
+
+p {
+    color: rgb(251, 251, 251);
+    text-shadow: 3px 3px 5px black, -3px -3px 5px black;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+a {
+    color: rgb(251, 251, 251);
+    text-decoration: none;
+}

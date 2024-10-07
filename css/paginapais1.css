@@ -1,0 +1,66 @@
+#app {
+    background: linear-gradient(to bottom right, #6ecd72, #4FC3F7);
+}
+
+
+#info1,
+#info {
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    text-align: justify;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    position: absolute;
+    top: 140px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+}
+
+#main1 {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr;
+    position: absolute;
+    top: 255px;
+    bottom: 115px;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+}
+
+h1 {
+    color: rgb(251, 251, 251);
+    text-shadow: 3px 3px 5px black, -3px -3px 5px black;
+    margin-bottom: 10px;
+}
+
+#conteudo {
+    display: flex;
+    position: relative;
+    width: 370px;
+    height: 240px;
+    border: hidden;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    justify-content: center;
+    margin: 10px auto;
+    overflow: hidden;
+    background-color: rgb(251, 251, 251);
+    transition: opacity 0.4s;
+}
+
+#conteudo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
